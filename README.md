@@ -39,3 +39,13 @@ python -u main_something.py something RGB \
  2>&1 | tee -a logs/log.txt
 ```
 
+
+## Pre-trained Models
+Since we have reorganized the structure of the codes and renamed the modules of TCM for public release, we do not provide the original pre-trained models on Something-Something V1 and V2, and Kinetics,  The old models cannot be loaded with new names. We plan to retrain the models with the new codes and release the models for evaluation.
+
+Currently available pre-trained models:
+
+| Model   | Backbone     | Pretrained | Input | Dataset      | Top-1<sup>val | pth                                                          |
+| ------- | ------------ | ---------- | ----- | ------------ | ------------- | ------------------------------------------------------------ |
+| TCM-R50 | TSM-ResNet50 | ImageNet   | 8     | Something V1 | 52.2          | [sthv1_8f_best.pth](https://github.com/zphyix/TCM/releases/download/v1/sthv1_8f_best.pth) |
+
