@@ -41,7 +41,7 @@ python -u main_something.py something RGB \
 
 
 ## Pre-trained Models
-Since we have reorganized the structure of the codes and renamed the modules of TCM for public release and the old models cannot be loaded with new names, we do not provide the original pre-trained models on Something-Something V1 and V2, and Kinetics. We plan to retrain the models with the new codes and release the models for evaluation.
+Since we have reorganized the structure of the codes and renamed the modules of TCM for public release, the old models cannot be loaded with new names. We plan to retrain the models with the new codes and release the models for evaluation.
 
 Currently available pre-trained models:
 
